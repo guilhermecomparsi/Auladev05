@@ -1,4 +1,4 @@
-package br.com.syonet;
+package br.com.syonet.model;
 
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;

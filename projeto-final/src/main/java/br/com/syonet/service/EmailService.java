@@ -1,4 +1,4 @@
-package br.com.syonet;
+package br.com.syonet.service;
 
 import io.quarkus.mailer.Mailer;
 import io.quarkus.mailer.Mail;
@@ -8,6 +8,9 @@ import jakarta.transaction.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
+
+import br.com.syonet.model.Cliente;
+import br.com.syonet.model.Noticia;
 
 @ApplicationScoped
 public class EmailService {

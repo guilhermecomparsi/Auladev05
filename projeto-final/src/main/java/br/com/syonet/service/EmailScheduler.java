@@ -1,4 +1,4 @@
-package br.com.syonet;
+package br.com.syonet.service;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -7,6 +7,9 @@ import jakarta.transaction.Transactional;
 
 import java.time.LocalDate;
 import java.util.List;
+
+import br.com.syonet.model.Cliente;
+import br.com.syonet.model.Noticia;
 
 @ApplicationScoped
 public class EmailScheduler {

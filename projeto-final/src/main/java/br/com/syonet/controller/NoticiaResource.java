@@ -1,6 +1,8 @@
-package br.com.syonet;
+package br.com.syonet.controller;
 
 import java.util.List;
+
+import br.com.syonet.model.Noticia;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.Consumes;
